@@ -4,8 +4,12 @@ root.geometry("600x400")
 def addition():
     s=int(en1.get())+int(en2.get())
     r.set(s)
-    print(s)
-
+    print(s) 
+    
+def subtraction():
+    k=int(en1.get())-int(en2.get())
+    r.set(k)
+    print(k)
 
 
 
@@ -29,6 +33,8 @@ en2 = Entry()
 en2.pack()
 bnt = Button(text="add",command=addition)
 bnt.pack()
+bnt2 = Button(text="subb",command=subtraction)
+bnt2.pack()
 pri = Label(root, textvariable=r)
 pri.pack()
 root.mainloop()
