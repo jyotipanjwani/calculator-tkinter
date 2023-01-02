@@ -12,6 +12,11 @@ def addition():
 
 #Hiii we are just testing our git
 
+
+
+
+#designing the code 
+# XYZ design
 root.title("Calculator")
 n1 = Label(text="give 1st number")
 n1.pack()
