@@ -11,6 +11,12 @@ def subtraction():
     r.set(k)
     print(k)
 
+def multiply():
+    b=int(en1.get())*int(en2.get())
+    r.set(b)
+    print(b)
+
+
 
 
 
@@ -35,6 +41,9 @@ bnt = Button(text="add",command=addition)
 bnt.pack()
 bnt2 = Button(text="subb",command=subtraction)
 bnt2.pack()
+
+bnt3 = Button(text="mul",command=multiply)
+bnt3.pack()
 pri = Label(root, textvariable=r)
 pri.pack()
 root.mainloop()
